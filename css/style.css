@@ -1,0 +1,50 @@
+.navbar-brand {
+    background-image: url('../images/sprites.png');
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    background-position: 0 -380px;
+}
+#section1{
+    background-image: url('../images/pixabey.jpg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section1 .bg-light {
+    background: none !important;
+}
+#dispText {
+    text-align: center;
+    color: white;
+    padding-top: 70px; 
+
+}
+.searchIcon{
+    background: url('../images/sprites.png');
+    height: 20px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-position: -172px 0px;
+    position: relative;
+    z-index: 9999;
+    display: inline-flex;
+    left: -356px;
+    top: 40px;
+
+ }
+ input#search{
+    padding-left: 30px;
+    position: relative;
+      }
+.dropdown{
+    position: absolute;
+    top: 112px;
+    right: 12px;
+   
+    
+    
+
+}
